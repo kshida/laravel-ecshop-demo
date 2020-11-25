@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::fallback(function () {
+    return file_get_contents(public_path('index.html'));
+});
