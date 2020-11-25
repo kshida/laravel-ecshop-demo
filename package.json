@@ -1,7 +1,7 @@
 {
     "private": true,
     "scripts": {
-        "heroku-postbuild": "cd front && npm run build:prod"
+        "heroku-postbuild": "cd front && npm install && npm run build:prod"
     },
     "devDependencies": {}
 }
