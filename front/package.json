@@ -25,6 +25,7 @@
     "eject": "react-scripts eject",
     "build:prod": "npm run build && mv build/* ../public"
   },
+  "proxy": "http://laravel-ecshop.test/",
   "eslintConfig": {
     "extends": [
       "react-app",
