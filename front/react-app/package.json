@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:prod": "npm run build && mv build/* ../public"
+    "build:prod": "npm run build && mv build/* ../../public"
   },
   "proxy": "http://laravel-ecshop.test/",
   "eslintConfig": {
